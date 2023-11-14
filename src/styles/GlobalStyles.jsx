@@ -45,8 +45,8 @@ const GlobalStyles = createGlobalStyle`
 body {
   display: grid;
   font-family: "Kumbh Sans", "Open Sans", Arial, Helvetica, sans-serif;
-  min-height: 100vh;
   position: relative;
+  min-height: 100vh;
 
   > * ::first-letter{
     text-transform: uppercase;
@@ -79,6 +79,7 @@ li{
 }
 
 @media (min-width: 768px) {
+  position: static;
   .main{
     --padding-inline: clamp(1rem, 5vw, 5rem);
     --content-max-width: clamp(20rem, 96vw, var(--max-width));

@@ -112,6 +112,12 @@ export const StyledSlides = styled.div`
       gap: 1rem;
       grid-template-columns: repeat(4, 1fr);
       padding: 1rem;
+      cursor: pointer;
+
+      :hover {
+        opacity: 0.7;
+        border: 2px solid var(--Orange);
+      }
     }
     .next,
     .prev {

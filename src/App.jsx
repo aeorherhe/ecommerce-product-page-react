@@ -29,18 +29,7 @@ export default App;
 
 const StyledApp = styled.main`
   margin: 0 auto;
-  /* display: grid;
-  gap: 2rem 0;
-  padding-bottom: 2rem;
-  grid-template-columns: [full-width-start] auto [content-start] 1fr [content-end] auto [full-width-end];
-
-  > * {
-    grid-column: content;
-  }
-
-  .full-width {
-    grid-column: full-width;
-  } */
+  /* position: relative; */
 
   @media (min-width: 768px) {
     ${(props) =>
