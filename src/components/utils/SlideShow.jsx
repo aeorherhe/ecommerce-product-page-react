@@ -14,7 +14,7 @@ function SlideShow() {
   const { images, currentSlide } = useSelector((state) => state.displayImg);
   const dispatch = useDispatch();
   return (
-    <StyledSlides className="slides full-width">
+    <StyledSlides className="slides details-width">
       <div className="item-img">
         <div className="close-icon" onClick={() => dispatch(closeSlide())}>
           <CloseIcon color={"#fff"} />

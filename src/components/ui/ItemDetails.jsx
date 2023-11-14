@@ -24,16 +24,16 @@ const StyledDetails = styled.section`
   padding-bottom: 2rem;
   width: clamp(20rem, 100vw, 45rem);
   grid-template-columns:
-    [full-width-start] var(--padding-inline)
+    [details-width-start] var(--padding-inline)
     [content-start] var(--content-max-width) [content-end] var(--padding-inline)
-    [full-width-end];
+    [details-width-end];
 
   > * {
     grid-column: content;
   }
 
-  > .full-width {
-    grid-column: full-width;
+  > .details-width {
+    grid-column: details-width;
   }
 
   @media (min-width: 768px) {
